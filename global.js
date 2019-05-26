@@ -1,13 +1,24 @@
-export const game_width = 640;
-export const game_height = 480;
+export const game = {
+    game_width: 640,
+    game_height: 480,
+    player_width: 20,
+    player_speed: 250,
+    missile_max_speed: 300,
+}
 
-export const player_width = 20;
-export const player_speed = 250;
-export const missile_max_speed = 300;
+export const keys = {
+    arrow_left: 37,
+    arrow_right: 39,
+    space: 32,
+}
 
-export const key_code_arrow_left = 37;
-export const key_code_arrow_right = 39;
-export const key_code_space = 32;
+export const enemy = {
+    horizontal_padding: 80,
+    vertical_padding: 50,
+    vertical_spacing: 70,
+    per_row: 10,
+    rows: 3,
+}
 
 export const game_state = {
     leftPressed: false,

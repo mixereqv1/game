@@ -16,6 +16,10 @@ function update(){
 function init(){
     createPlayer($container);
     createEnemy($container,100,100);
+    createEnemy($container,150,100);
+    createEnemy($container,200,100);
+    createEnemy($container,250,100);
+    createEnemy($container,300,100);
 }
 
 init();
